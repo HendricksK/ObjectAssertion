@@ -18,8 +18,8 @@ public class ObjectComparisonImpl implements ObjectComparison{
     public static ObjectComparison obj1;
     
     @Override
-    public boolean checkObject(){
-        return true;
+    public ObjectComparison checkObject(ObjectComparison obj2){
+        return (obj1 = obj2);
     }
     
     

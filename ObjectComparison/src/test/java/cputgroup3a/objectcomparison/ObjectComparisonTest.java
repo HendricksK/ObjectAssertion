@@ -36,17 +36,17 @@ public class ObjectComparisonTest {
     
     @Test
     public static void testCheckObject(){
-       Assert.assertEquals(obj, obj);
+       Assert.assertEquals(obj.checkObject(obj), obj);
     }
     
     @Test
     public static void testAssertSame(){
-        Assert.assertSame(obj, obj);
+        Assert.assertSame(obj.checkObject(obj), obj);
     }
     
     @Test
     public static void testAssertNotSame(){
-        Assert.assertSame(obj, obj);
+        Assert.assertSame(obj.checkObject(obj), obj);
     }
 
     @BeforeClass

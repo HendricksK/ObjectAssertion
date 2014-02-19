@@ -11,6 +11,6 @@ package cputgroup3a.objectcomparison.service;
  * @author kurvin
  */
 public interface ObjectComparison {
-    public boolean checkObject();
+    public ObjectComparison checkObject(ObjectComparison obj2);
     //public boolean ObjectSame(ObjectComparison obj);
 }
